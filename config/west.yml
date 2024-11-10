@@ -5,7 +5,9 @@ manifest:
     - name: sayu-hub
       url-base: https://github.com/sayu-hub
     - name: caksoylar  # <-- new entry
-      url-base: https://github.com/caksoylar  
+      url-base: https://github.com/caksoylar 
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -17,22 +19,9 @@ manifest:
     - name: zmk-rgbled-widget  # <-- new entry
       remote: caksoylar
       revision: main
-  self:
-    path: config
-
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
     - name: zmk-hid-trackball-interface
       remote: englmaxi
       revision: main
   self:
     path: config
+    
