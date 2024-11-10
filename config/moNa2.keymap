@@ -72,6 +72,14 @@
             // 追加: スクロールのタップ時間を設定 (20ms)
             tap-ms = <20>;
         };
+        /omit-if-no-ref/ tbs_mt: tb_scroll_mo_tog {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&tb_mo_scroll>, <&tb_tg_scroll>;
+        };
+
     };
 
 // 設定したいレイヤー
