@@ -99,7 +99,7 @@
 &lt 5 ESCAPE    &kp LEFT_WIN      &kp AT              &lt 2 TAB  &lt 1 SPACE  &mt LEFT_SHIFT DEL    &kp BACKSPACE      &lt 1 ENTER                                           &kp LANG5
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         layer_1 {
