@@ -2,7 +2,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+//#include <dt-bindings/zmk/mouse.h>
 
 // #includeのあとのあたりにスクロール量を変更
 
@@ -76,13 +76,13 @@
             tap-ms = <20>;
         };
 
-        tbs_mt: tb_scroll_mo_tog {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&tb_mo_scroll>, <&tb_tg_scroll>;
-        };
+//        tbs_mt: tb_scroll_mo_tog {
+//            compatible = "zmk,behavior-hold-tap";
+//            #binding-cells = <2>;
+//            flavor = "hold-preferred";
+//            tapping-term-ms = <200>;
+//            bindings = <&tb_mo_scroll>, <&tb_tg_scroll>;
+//        };
     };
 
     keymap {
