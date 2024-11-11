@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/caksoylar 
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: zmkmable
+      url-base: https://github.com/eswai
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -21,6 +23,9 @@ manifest:
       revision: main
     - name: zmk-hid-trackball-interface
       remote: englmaxi
+      revision: main
+    - name: zmk_mable
+      remote: eswai
       revision: main
   self:
     path: config
