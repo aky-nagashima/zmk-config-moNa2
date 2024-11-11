@@ -84,6 +84,11 @@
         };
     };
 
+
+            // 設定したいレイヤー
+            sensor-bindings = <&scroll_up_down>;
+
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -140,8 +145,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
             >;
-            // 設定したいレイヤー
-            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_5 {
