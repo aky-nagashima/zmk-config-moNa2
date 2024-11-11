@@ -95,9 +95,9 @@
 
         layer_1 {
             bindings = <
-&kp LS(NUMBER_2)      &kp LS(AT_SIGN)        &kp LS(N5)                  &kp F2             &kp F5                                &kp LC(PAGE_UP)  &mkp MB4   &mkp MB3        &mkp MB5   &kp LC(PAGE_DOWN)
+&kp EXCL              &kp DOUBLE_QUOTES      &kp APOS                    &kp F2             &kp F5                                &kp LC(PAGE_UP)  &mkp MB4   &mkp MB3        &mkp MB5   &kp LC(PAGE_DOWN)
 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET            &kp RIGHT_BRACKET  &kp TILDE       &trans    &trans      &kp PAGE_UP      &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &kp HOME
-&kp INT_YEN           &kp LS(BACKSLASH)      &mt LEFT_CONTROL SEMICOLON  &kp COLON          &kp UNDERSCORE  &trans    &trans      &kp PAGE_DOWN    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp END
+&kp INT_YEN           &kp PIPE               &mt LEFT_CONTROL SEMICOLON  &kp COLON          &kp UNDERSCORE  &trans    &trans      &kp PAGE_DOWN    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp END
 &kp ESCAPE            &kp LEFT_SHIFT         &kp LEFT_CONTROL            &tog 0             &trans          &tog 2    &kp DELETE  &kp ENTER                                              &tog 3
             >;
 
@@ -106,10 +106,10 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE  &kp LS(N5)      &kp LS(NUMBER_4)      &kp LS(N5)     &kp LS(NUMBER_6)                           &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
-&kp F7      &kp F8          &kp F9                &kp F10        &kp AT            &trans    &trans         &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
-&kp LA(F4)  &trans          &kp LC(SEMICOLON)     &kp LC(COLON)  &kp UNDERSCORE    &trans    &trans         &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
-&kp LC(F4)  &kp LEFT_SHIFT  &kp LS(LEFT_CONTROL)  &tog 0         &trans            &tog 3    &kp BACKSPACE  &kp N0                                                  &kp PIPE
+&kp ESCAPE  &kp HASH        &kp DOLLAR            &kp PERCENT    &kp AMPERSAND                            &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
+&kp F7      &kp F8          &kp F9                &kp F10        &kp AT          &trans    &trans         &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
+&kp LA(F4)  &trans          &kp LC(SEMICOLON)     &kp LC(COLON)  &kp UNDERSCORE  &trans    &trans         &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
+&kp LC(F4)  &kp LEFT_SHIFT  &kp LS(LEFT_CONTROL)  &tog 0         &trans          &tog 3    &kp BACKSPACE  &kp N0                                                  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
