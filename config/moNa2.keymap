@@ -96,7 +96,7 @@
 
         layer_1 {
             bindings = <
-&kp EXCL              &kp DOUBLE_QUOTES      &kp GRAVE                   &kp F2             &kp F5                                &kp LC(PAGE_UP)  &mkp MB4   &mkp MB3        &mkp MB5   &kp LC(PAGE_DOWN)
+&kp EXCL              &kp JP_DQT      &kp GRAVE                   &kp F2             &kp F5                                &kp LC(PAGE_UP)  &mkp MB4   &mkp MB3        &mkp MB5   &kp LC(PAGE_DOWN)
 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET            &kp RIGHT_BRACKET  &kp TILDE       &trans    &trans      &kp PAGE_UP      &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &kp HOME
 &kp INT_YEN           &kp PIPE               &mt LEFT_CONTROL SEMICOLON  &kp COLON          &kp UNDERSCORE  &trans    &trans      &kp PAGE_DOWN    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp END
 &kp ESCAPE            &kp LEFT_SHIFT         &kp LEFT_CONTROL            &tog 0             &trans          &tog 2    &kp DELETE  &kp ENTER                                              &tog 3
