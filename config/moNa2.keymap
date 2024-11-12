@@ -9,6 +9,8 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 #define MOUSE 6
 
+#define JP_DQT   LS(N2)       // "
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
