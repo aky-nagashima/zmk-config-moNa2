@@ -56,7 +56,7 @@
         JP_DQT: JP_DQT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(N2)>;
+            bindings = <&kp LS(N2)>;
             label = "JP_DQT";
         };
     };
