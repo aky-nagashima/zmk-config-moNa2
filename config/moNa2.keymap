@@ -1,8 +1,8 @@
-#include "keycode_japanese.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
+//#include "keycode_japanese.h"
 
 // #includeのあとのあたりにスクロール量を変更
 
