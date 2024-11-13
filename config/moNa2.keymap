@@ -116,7 +116,7 @@
             bindings = <
 &kp ESCAPE  &kp HASH        &kp DOLLAR            &kp PERCENT    &kp AMPERSAND                            &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
 &kp F7      &kp F8          &kp F9                &kp F10        &kp AT          &trans    &trans         &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
-&kp LA(F4)  &trans          &kp LC(SEMICOLON)     &kp LC(COLON)  &kp UNDERSCORE  &trans    &trans         &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(EQUAL)
+&kp LA(F4)  &trans          &kp LC(SEMICOLON)     &kp LC(COLON)  &kp UNDERSCORE  &trans    &trans         &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
 &kp LC(F4)  &kp LEFT_SHIFT  &kp LS(LEFT_CONTROL)  &tog 0         &trans          &tog 3    &kp BACKSPACE  &kp N0                                                  &kp DELETE
             >;
 
