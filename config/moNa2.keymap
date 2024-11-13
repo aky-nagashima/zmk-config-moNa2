@@ -7,7 +7,7 @@
 // #includeのあとのあたりにスクロール量を変更
 
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
-#define MOUSE 6
+#define SCROLL 6
 
 &mt {
     flavor = "balanced";
