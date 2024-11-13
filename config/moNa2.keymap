@@ -116,7 +116,7 @@
             bindings = <
 &kp ESCAPE  &kp HASH        &kp DOLLAR            &kp PERCENT    &kp AMPERSAND                            &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
 &kp F7      &kp F8          &kp F9                &kp F10        &kp AT          &trans    &trans         &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
-&kp LA(F4)  &trans          &kp LC(SEMICOLON)     &kp LC(COLON)  &kp UNDERSCORE  &trans    &trans         &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
+&kp LA(F4)  &trans          &kp LC(SEMICOLON)     &kp LC(COLON)  &kp UNDERSCORE  &trans    &trans         &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(EQUAL)
 &kp LC(F4)  &kp LEFT_SHIFT  &kp LS(LEFT_CONTROL)  &tog 0         &trans          &tog 3    &kp BACKSPACE  &kp N0                                                  &kp DELETE
             >;
 
@@ -152,16 +152,17 @@
             >;
         };
 
-//        MOUSE {
-//            bindings = <
-//&trans  &trans  &trans  &trans  &trans                         &trans  &trans     &trans     &trans     &trans
-//&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
-//&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans  &trans     &trans     &trans     &trans
-//&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                   &trans
-//            >;
-//
-//            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
-//        };
+        //        MOUSE {
+        //            bindings = <
+        //&trans  &trans  &trans  &trans  &trans                         &trans  &trans     &trans     &trans     &trans
+        //&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
+        //&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans  &trans     &trans     &trans     &trans
+        //&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                   &trans
+        //            >;
+        //
+        //            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+        //        };
+
         SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -170,6 +171,5 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
         };
-
-};
+    };
 };
