@@ -5,8 +5,8 @@
 
 //#include "unicode.h"
 //#include "keycode_japanese.h"
-
 // #includeのあとのあたりにスクロール量を変更
+
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 #define SCROLL 6
 
@@ -56,10 +56,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W             &kp E               &kp R      &kp T                                                &kp Y        &kp U  &kp I                    &kp O              &kp P
-&mt LEFT_ALT A  &mt LEFT_SHIFT S  &kp D               &kp F      &kp G        &trans                &kp SINGLE_QUOTE  &kp H        &kp J  &kp K                    &mt RIGHT_SHIFT L  &kp MINUS
-&kp Z           &kp X             &mt LEFT_CONTROL C  &kp V      &kp B        &kp INT_MUHENKAN      &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT            &kp SLASH
-&lt 5 ESCAPE    &kp LEFT_WIN      &kp AT_SIGN         &lt 2 TAB  &lt 1 SPACE  &mt LEFT_SHIFT DEL    &kp BACKSPACE     &lt 1 ENTER                                                     &lt 6 LC(SPACE)
+&kp Q           &kp W             &kp E               &kp R      &kp T                                              &kp Y        &kp U  &kp I                    &kp O              &kp P
+&mt LEFT_ALT A  &mt LEFT_SHIFT S  &kp D               &kp F      &kp G        &trans              &kp SINGLE_QUOTE  &kp H        &kp J  &kp K                    &mt RIGHT_SHIFT L  &kp MINUS
+&kp Z           &kp X             &mt LEFT_CONTROL C  &kp V      &kp B        &kp INT_MUHENKAN    &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT            &kp SLASH
+&lt 5 ESCAPE    &kp LEFT_WIN      &kp AT_SIGN         &lt 2 TAB  &lt 1 SPACE  &lt 3 DEL           &kp BACKSPACE     &lt 1 ENTER                                                     &lt 6 LC(SPACE)
             >;
 
             //sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -92,10 +92,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &tog 0                   &trans   &trans    &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                     &trans  &trans          &trans          &trans              &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans    &trans  &trans  &trans          &kp UP_ARROW    &kp K_CONTEXT_MENU  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans
+&trans          &trans                  &trans          &tog 0                   &trans   &trans    &trans  &trans                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
