@@ -19,7 +19,7 @@
     excluded-positions = <
         18 // J
         20 // L
-        38 // left thumb 2
+        39 // left thumb 3
     >;
 };
 
