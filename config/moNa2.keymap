@@ -127,13 +127,13 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &none                         &kp LC(PAGE_UP)  &mkp MB4   &mkp MB3        &mkp MB5            &kp LC(PAGE_DOWN)
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &none    &none       &kp PAGE_UP      &mkp LCLK  &kp UP_ARROW    &kp K_CONTEXT_MENU  &none
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &none           &kp LG(LS(RIGHT_ARROW))  &none    &none    &none       &kp PAGE_DOWN    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT           &kp END
-&none           &none                   &none           &to 0                    &trans   &none    &kp DELETE  &kp ENTER                                                       &mo 6
+&kp Q                             &kp W         &kp E               &kp R      &kp T                                            &kp Y        &kp U  &kp I                    &kp O    &kp P
+&mt LEFT_ALT A                    &kp S         &mt LEFT_SHIFT D    &kp F      &kp G        &trans            &kp SINGLE_QUOTE  &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L    &mt RIGHT_ALT MINUS
+&kp Z                             &kp X         &mt LEFT_CONTROL C  &kp V      &kp B        &lt 5 B           &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT  &kp SLASH
+&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &lt 2 TAB  &lt 1 SPACE  &kp LEFT_SHIFT    &kp BACKSPACE     &lt 1 ENTER                                           &lt 6 LC(SPACE)
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_4 {
