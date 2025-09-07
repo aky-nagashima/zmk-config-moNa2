@@ -126,10 +126,10 @@
 
         layer_3 {
             bindings = <
-&kp Q                             &kp W         &kp E               &kp R      &kp T                                            &kp Y        &kp U  &kp I                    &kp O    &kp P
-&mt LEFT_COMMAND A                &kp S         &mt LEFT_SHIFT D    &kp F      &kp G        &trans            &kp SINGLE_QUOTE  &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L    &mt RIGHT_ALT MINUS
-&kp Z                             &kp X         &mt LEFT_COMMAND C  &kp V      &kp B        &lt 5 B           &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT  &kp SLASH
-&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &lt 2 TAB  &lt 1 SPACE  &kp LEFT_SHIFT    &kp BACKSPACE     &lt 1 ENTER                                           &lt 6 LC(SPACE)
+&kp Q                             &kp W         &kp E               &kp R      &kp T                                              &kp Y        &kp U  &kp I                    &kp O    &kp P
+&mt LEFT_COMMAND A                &kp S         &mt LEFT_SHIFT D    &kp F      &kp G        &trans              &kp SINGLE_QUOTE  &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L    &mt RIGHT_ALT MINUS
+&kp Z                             &kp X         &mt LEFT_COMMAND C  &kp V      &kp B        &lt 5 B             &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT  &kp SLASH
+&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &lt 2 TAB  &lt 1 SPACE  &kp LEFT_CONTROL    &kp BACKSPACE     &lt 1 ENTER                                           &lt 6 LC(SPACE)
             >;
 
             sensor-bindings = <&scroll_up_down>;
