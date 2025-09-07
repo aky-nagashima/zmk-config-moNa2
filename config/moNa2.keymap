@@ -103,13 +103,25 @@
 &kp Q                             &kp W         &kp E               &kp R      &kp T                                            &kp Y        &kp U  &kp I                    &kp O    &kp P
 &mt LEFT_ALT A                    &kp S         &mt LEFT_SHIFT D    &kp F      &kp G        &trans            &kp SINGLE_QUOTE  &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L    &mt RIGHT_ALT MINUS
 &kp Z                             &kp X         &mt LEFT_CONTROL C  &kp V      &kp B        &lt 5 B           &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT  &kp SLASH
-&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &lt 2 TAB  &lt 1 SPACE  &kp LEFT_SHIFT    &kp BACKSPACE     &lt 1 ENTER                                           &lt 6 LC(SPACE)
+&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &lt 3 TAB  &lt 2 SPACE  &kp LEFT_SHIFT    &kp BACKSPACE     &lt 2 ENTER                                           &lt 6 LC(SPACE)
             >;
 
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_1 {
+
+        mac_layer {
+            bindings = <
+&kp Q                             &kp W         &kp E               &kp R      &kp T                                              &kp Y        &kp U  &kp I                    &kp O    &kp P
+&mt LEFT_COMMAND A                &kp S         &mt LEFT_SHIFT D    &kp F      &kp G        &trans              &kp SINGLE_QUOTE  &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L    &mt RIGHT_ALT MINUS
+&kp Z                             &kp X         &mt LEFT_COMMAND C  &kp V      &kp B        &lt 5 B             &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT  &kp SLASH
+&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &lt 3 TAB  &lt 4 SPACE  &kp LEFT_CONTROL    &kp BACKSPACE     &lt 4 ENTER                                           &lt 6 LC(SPACE)
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        layer_2 {
             bindings = <
 &kp EXCL                                       &kp DQT                                           &kp GRAVE                   &kp F2             &kp F5                               &kp LC(PAGE_UP)  &mkp MB4   &mkp MB3        &mkp MB5   &kp LC(PAGE_DOWN)
 &kp LEFT_PARENTHESIS                           &mt_exit_AML_on_tap LEFT_SHIFT RIGHT_PARENTHESIS  &kp LEFT_BRACKET            &kp RIGHT_BRACKET  &kp TILDE       &none    &kp HOME    &kp PAGE_UP      &mkp LCLK  &kp UP_ARROW    &mkp RCLK  &kp HOME
@@ -120,7 +132,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
         };
 
-        layer_2 {
+        layer_3 {
             bindings = <
 &kp ESCAPE  &kp HASH        &kp DOLLAR            &kp PERCENT    &kp AMPERSAND                            &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
 &kp F7      &kp F8          &kp F9                &kp F10        &kp AT          &none     &none          &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
@@ -129,17 +141,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
-        };
-
-        layer_3 {
-            bindings = <
-&kp Q                             &kp W         &kp E               &kp R      &kp T                                              &kp Y        &kp U  &kp I                    &kp O    &kp P
-&mt LEFT_COMMAND A                &kp S         &mt LEFT_SHIFT D    &kp F      &kp G        &trans              &kp SINGLE_QUOTE  &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L    &mt RIGHT_ALT MINUS
-&kp Z                             &kp X         &mt LEFT_COMMAND C  &kp V      &kp B        &lt 5 B             &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT  &kp SLASH
-&mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &lt 2 TAB  &lt 1 SPACE  &kp LEFT_CONTROL    &kp BACKSPACE     &lt 1 ENTER                                           &lt 6 LC(SPACE)
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_4 {
