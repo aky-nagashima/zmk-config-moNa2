@@ -244,8 +244,6 @@
 &trans  &trans  &trans  &tog 0  &trans  &trans    &trans  &trans                          &trans
             >;
         };
-    };
-};
 
         BT {
             bindings = <
@@ -255,3 +253,6 @@
 &bt BT_CLR_ALL  &none     &none     &tog 0    &trans    &mo 6    &none  &none                                     &bt BT_CLR_ALL
             >;
         };
+    };
+};
+
