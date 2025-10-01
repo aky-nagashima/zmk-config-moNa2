@@ -176,7 +176,7 @@
             bindings = <
 &kp Q                             &kp W         &kp E               &kp R      &kp T                                              &kp Y        &kp U  &kp I                    &mt LEFT_ALT O  &kp P
 &mt LEFT_COMMAND A                &kp S         &mt LEFT_SHIFT D    &kp F      &kp G        &trans              &kp SINGLE_QUOTE  &kp H        &kp J  &mt RIGHT_SHIFT K        &kp L           &mt RIGHT_ALT MINUS
-&kp Z                             &kp X         &mt LEFT_COMMAND C  &kp V      &kp B        &lt 5 B             &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT         &kp SLASH
+&kp Z                             &kp X         &mt LEFT_COMMAND C  &kp V      &kp B        &lt 7 B             &kp INT_HENKAN    &kp N        &kp M  &mt RIGHT_COMMAND COMMA  &kp DOT         &kp SLASH
 &mt_exit_AML_on_tap LCTRL ESCAPE  &kp LEFT_WIN  &kp AT              &lt 3 TAB  &lt 4 SPACE  &kp LEFT_CONTROL    &kp BACKSPACE     &lt 4 ENTER                                                  &lt 6 LC(SPACE)
             >;
 
